@@ -1,0 +1,64 @@
+body {
+    background: rgba(216, 211, 211, 0.952);
+  }
+  
+  h1 {
+    border-left: 1px dashed black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px dashed black;
+    border-radius: 20px;
+    border-top-left-radius: 5px;
+  }
+  
+  p {
+    color: tomato;
+  }
+  .center {
+    text-align: center;
+  }
+  
+  .vermelho {
+    color: rgb(255, 0, 0);
+  }
+  
+  #teste {
+    text-align: center;
+    background: chartreuse;
+    font-size: 30px;
+  }
+  
+  * {
+    padding: 5 px;
+  }
+  
+  .exemplo-back {
+    height: 200px;
+    background: green;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20210303/pngtree-neon-background-for-music-party-image_576449.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+  }
+  
+  .botao {
+    margin-left: 45%;
+    background: green;
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+    border-top-left-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .botao:hover {
+    background: greenyellow;
+  }
+  .testediv {
+    background-origin: center;
+    background: blue;
+    height: 150px;
+    width: 300px;
+  }
+  
