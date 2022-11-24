@@ -11,3 +11,7 @@
  <a href="https://gustavos4ntos.github.io/Html-Css/Desafios/dsf4"> Desafio 4 Não Terminado, Nem Comeceçado, Mais Até Sexta eu entrego</a>
 
  <a href="https://gustavos4ntos.github.io/Html-Css/Desafios/dsf"> Desafio 5 Em Breve (LINK ATOA SÓ PARA DEIXAR NO JEITO)</a>
+
+  <a href="https://gustavos4ntos.github.io/Html-Css/Treinos/eletores-Propriedades">Treinando</a>
+
+  
