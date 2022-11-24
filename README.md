@@ -12,6 +12,6 @@
 
  <a href="https://gustavos4ntos.github.io/Html-Css/Desafios/dsf"> Desafio 5 Em Breve (LINK ATOA SÓ PARA DEIXAR NO JEITO)</a>
 
-  <a href="https://gustavos4ntos.github.io/Html-Css/Treinos/eletores-Propriedades">Treinando</a>
+  <a href="https://gustavos4ntos.github.io/Html-Css/Treinos/Seletores-Propriedades">Treinando</a>
 
   
