@@ -5,8 +5,8 @@
 
  -- Atualizado 23/11/2022 --
 
- <a class="center" href="https://gustavos4ntos.github.io/Html-Css/Treinos/Seletores-Propriedades">Treinando</a>
- 
+  <a href="https://gustavos4ntos.github.io/Html-Css/Treinos/Seletores-Propriedades">Treinando</a>
+
   <a href="https://gustavos4ntos.github.io/Html-Css/Desafios/joy-base">Prof-Joy-Exemplo Disney</a>
 
   <a href="https://gustavos4ntos.github.io/Html-Css/Desafios/dsf4"> Desafio 4 Não Terminado, Nem Comeceçado, Mais Até Sexta eu entrego</a>
