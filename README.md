@@ -1,4 +1,4 @@
-# Html-Css
+# Html-Css-JavaScript
  Curso Html-Css-JavaScript Vai Na Web
 
  -- Repositório Criado 23/11/2022 -- 
