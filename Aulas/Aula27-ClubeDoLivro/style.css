@@ -1,0 +1,33 @@
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    ;
+}
+
+main{
+
+display: flex;
+width: 100%;
+
+}
+
+.title{
+
+    background-color: #1E1E1E;
+    width: 50%;
+    height: 100vh;
+
+}
+
+.form{
+
+    background-color: #EFD0A9;
+    width: 50%;
+    height: 100vh;
+
+
+
+}
