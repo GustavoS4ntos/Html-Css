@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Anton&display=swap');
+
 body {
     background: rgba(216, 211, 211, 0.952);
   }
@@ -9,6 +11,7 @@ body {
     border-right: 1px dashed black;
     border-radius: 20px;
     border-top-left-radius: 5px;
+    font-family: 'Allan', cursive;
   }
   
   p {
@@ -60,5 +63,37 @@ body {
     background: blue;
     height: 150px;
     width: 300px;
+  }
+
+  .aula1{
+
+    text-align: center;
+    text-transform: uppercase;
+    background:black;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    
+
+
+  }
+
+  a.botao1{
+    background: darkgreen;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+  }
+
+  
+  a.botao1:hover{
+    background: rgb(32, 233, 32);
+    padding: 12px;
+    border: 1px solid rgb(116, 185, 11);
+    border-radius: 5px;
   }
   
