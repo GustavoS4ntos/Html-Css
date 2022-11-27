@@ -1,0 +1,47 @@
+@media screen and (max-width:900px) {
+
+
+
+    .txth1{
+
+        text-align: right;
+        font-size: 15px;
+        padding-top: 40px;
+        color: white;
+        
+        }
+        
+        .menua{
+
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            font-size: 10px;
+            
+            }
+
+        .menu2a{
+
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            font-size: 10px;
+            
+            
+            }
+
+            .icone{
+
+                background-image: url(https://img.icons8.com/windows/512/hand-cursor.png);
+                background-position: center;
+                padding-top: 0px;
+                background-repeat: no-repeat;
+                background-size: 10px;
+                overflow: hidden;
+            
+            }
+
+
+}
+
+
