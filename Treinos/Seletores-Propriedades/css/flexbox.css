@@ -1,0 +1,101 @@
+#pai{
+
+
+background: blue;
+height: 500px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+
+@media screen and (max-width:600px) {
+
+    #pai{
+
+flex-direction: column;
+
+    }
+    
+}
+
+#pai div{
+
+background: white;
+border: 1px solid black;
+margin: 20px;
+padding: 30px;
+text-align: center;
+
+}
+
+body{
+
+margin: 0;
+
+}
+
+.header{
+
+background: rgb(83, 136, 5);
+padding: 80px;
+text-align: center;
+color: white;
+
+
+}
+
+.navbar{
+
+display: flex;
+justify-content: center;
+background: black;
+
+
+}
+
+.navbar a{
+
+color: white;
+padding: 14px 20px;
+text-decoration: none;
+text-align: center;
+
+}
+
+.navbar a:hover{
+
+background: gray;
+color: black;
+font-weight: bold;
+
+}
+
+@media screen and (max-width:600px){
+
+.navbar{
+
+flex-direction: column;
+
+}
+
+
+}
+
+.corpo{
+
+display: flex;
+flex-flow: row wrap;
+
+}
+
+.card{
+
+flex-grow: 1;
+background: gray;
+height: 400px;
+margin: 1%;
+
+
+}

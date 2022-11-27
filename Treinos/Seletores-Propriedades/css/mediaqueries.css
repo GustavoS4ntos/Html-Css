@@ -1,0 +1,52 @@
+/* SmartPhones 600px para baixo */
+@media only screen and (max-width:600px){
+    body{
+
+background: blue;
+
+    }
+
+}
+
+
+/* dispositivos um pouco maiores 600px para baixo */
+@media only screen and (min-width:600px){
+    body{
+
+        background: green;
+        
+            }
+
+}
+
+/* Médios 600px para baixo */
+@media only screen and (min-width:768px){
+    body{
+
+        background: yellow;
+        
+            }
+
+}
+
+/* Largos 600px para baixo */
+@media only screen and (min-width:992px){
+    body{
+
+        background: red;
+        
+            }
+
+}
+
+/* SuperLargos 600px para baixo */
+@media only screen and (min-width:1200px){
+
+    body{
+
+        background: violet;
+        
+            }
+
+
+}

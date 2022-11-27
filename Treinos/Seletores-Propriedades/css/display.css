@@ -1,0 +1,109 @@
+.borda{
+
+border: 1px solid red;
+
+}
+
+p{
+
+
+
+}
+
+#p1{
+display: none;
+
+}
+li{
+
+display: inline;
+
+}
+.verde{
+
+    background: green;
+}
+.azul{
+
+    background: blue;
+}
+.vermelho{
+
+    background: red;
+
+}
+
+.divp{
+
+
+display: inline-block;
+width: 20%;
+height: 150px;
+
+}
+
+a.botao{
+
+width:50%;
+height: 50px;
+display: inline-block;
+text-align: center;
+
+}
+
+.ex1{
+
+max-width: 800px;
+
+}
+.ex2{
+
+max-width: 800px;
+}
+
+.container{
+display: inline-block;
+background: blue;
+width: 100%;
+height: 400px;
+
+}
+
+.div1{
+
+position: relative;
+left: 10px;
+width: 30%;
+height: 100px;
+background: yellow;
+display: inline-block;
+
+}
+.div2{
+ width: 30%;
+ height: 100px;
+ background: white;
+ display: inline-block;
+
+}
+.div3{
+position: relative;
+width: 30%;
+height: 100px;
+background: red;
+display: inline-block;
+z-index: 100;
+
+}
+.whats{
+
+background: green;
+color: white;
+width: 80px;
+height: 80px;
+position: fixed;
+bottom: 0;
+right: 0;
+
+
+}

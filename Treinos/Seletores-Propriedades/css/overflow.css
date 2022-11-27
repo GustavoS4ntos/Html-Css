@@ -1,0 +1,88 @@
+.exemplo{
+
+background: blue;
+color: white;
+height: 150px;
+overflow: scroll;
+
+}
+
+.container{
+
+    border: 1px solid black;
+    overflow: auto;
+}
+.container img{
+
+float: left;
+margin-right: 5px;
+
+
+}
+
+.ul1{
+
+background: black;
+padding: 20px;
+
+}
+
+.li1{
+
+display: inline-block;
+
+}
+
+.lia{
+
+color: white;
+text-decoration: none;
+padding: 20px;
+
+}
+
+.lia:hover{
+
+background: #ccc;
+color: black;
+
+}
+.login{
+
+float: right;
+
+}
+.login a:hover{
+
+background: orange;
+
+}
+
+.opacity1{
+
+
+}
+
+.img1:hover{
+
+opacity: 0.5;
+
+}
+.img2{
+
+
+
+}
+
+.img3{
+
+
+
+}
+
+img{
+
+width: 200px;
+
+}
+
