@@ -1,0 +1,183 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+.navbar{
+padding: 20px 0;
+ background: #129799;
+
+
+
+}
+.homelife{
+ 
+width: 50%;
+text-align: right;
+padding-top: 140px;
+color: white;
+font-size: 25px;
+border: 1px solid red;
+padding-left: 20px;
+
+}
+
+.imglife{
+
+width: 50%;
+
+
+border: 1px solid red;
+}
+
+.menu{
+
+text-align: center;
+border: 1px solid red;
+
+}
+
+.menucenter{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+
+
+
+}
+
+.menu2{
+
+    text-align: center;
+    border: 1px solid red;
+
+}
+
+.menua{
+
+text-decoration: none;
+color: white;
+padding: 20px;
+
+}
+
+.menu2a{
+
+text-decoration: none;
+color: white;
+padding: 20px;
+font-size: 20px;
+
+
+}
+
+.icone{
+
+    background-image: url(https://img.icons8.com/windows/512/hand-cursor.png);
+    background-position: center;
+    padding-top: 1px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+
+}
+
+.sectionpai{
+
+    background: #FFA185;
+
+
+}
+
+.section2{
+
+display: flex;
+
+
+
+
+}
+
+.section3{
+
+    display: flex;
+
+    
+    
+    }
+
+.part2{
+
+width: 50%;
+height: 400px;
+margin: 20px;
+margin-top: 20px;
+
+}
+
+.part3{
+
+    width: 50%;
+    height: 400px;
+    margin: 20px;
+    margin-top: 20px;
+    
+}
+
+h3{
+
+font-size: 25px;
+text-align: center;
+
+}
+
+.rodape{
+
+    display: flex;
+    height: 160px;
+    flex-flow:  row wrap;
+    background: #129799;
+    border: 1px solid red;
+
+}
+
+.social{
+width: 40%;
+margin-left: 10%;
+text-align: left;
+padding-top: 50px;
+border: 1px solid red;
+
+
+
+}
+
+.contato{
+width: 50%;
+padding-top: 80px;
+text-align: center;
+border: 1px solid red;
+
+}
+
+.social1{
+
+margin: 5px;
+width: 45px;
+margin-right: 20px;
+border: 1px solid red;
+
+}
+
+.contato1{
+
+text-align: center;
+text-decoration: none;
+color: white;
+font-size: 20px;
+padding: 40px;
+
+
+}
