@@ -103,6 +103,7 @@ border: 1px solid blue;
 
 
 /* header a cima*/
+/*Main Abaixo */
 
 
 main{
@@ -113,11 +114,106 @@ main{
 }
 
 .card1{
-
-position: relative;
+width: 398px;
+height: 584px;
+background-image: url(../img/comeceajogarimg.png);
+background-position: center;
+background-size: cover;
+color: white ;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
 border: 1px solid green;
+position: relative;
+bottom:60px ;
+left: 165px;
+}
+
+
+
+
+.section1{
+    width:40%;
+    height: 155vh;
+    padding-left: 100px;
+    background-image: url('../img/main.png');
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    border: 5px solid pink;
 
 }
+
+.section1 button{
+ 
+    position: relative;
+    bottom: 30px;
+    color: white;
+    border-color: white;
+    background-color: transparent;
+  
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 25px;
+    top: 70px;
+    text-decoration-line: none;
+}
+
+
+.section1 button:hover{
+
+background-color: black;
+transition:  3s;
+font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+.section1 img{
+    position: relative;
+    width: 130%;
+    left: 150px;
+    top: 60px;
+    border: 1px solid red;
+    
+}
+
+
+.section3 img{
+    position: relative;
+    width: 90%;
+    top: 170px;
+    left: 10px;
+    border: 5px solid red;
+    
+}
+    
+    
+
+.section1 h2{
+    padding-top: 70px;
+    font-weight: 500;
+    font-size: 50px;
+    
+    }
+
+.section1 p{
+font-size: 20px;
+font-weight: 100;
+text-align: start ;
+padding-top: 80px;
+padding-left: 30px;
+padding-right: 30px;
+
+
+}
+
 
 .card2{
 width: 100%;
@@ -126,7 +222,6 @@ display: flex;
 flex-direction: row;
 justify-items: center;
 align-items: center;
-border: 10px solid red;
 font-family: 'Open Sans', sans-serif;
 text-align: end;
 font-size: 20px;
@@ -150,14 +245,6 @@ padding-bottom: 20px;
 
 }
 
-.divSobreJogo{
-    
-    padding-top: 240px;
-    padding-right: 15px;
-
-
-}
-
 .card2 img {
 
     width: 26rem;
@@ -172,6 +259,16 @@ padding-bottom: 20px;
     
     }
 
+.divSobreJogo{
+    
+    padding-top: 240px;
+    padding-right: 15px;
+
+
+}
+
+
+
 .divvazia{
 
 margin-left: 65%;
@@ -184,26 +281,30 @@ background-color: black;
 
 
 
-.section1{
-    width:40%;
-    height: 155vh;
-    background-image: url('../img/main.png');
-    background-position: center;
-    background-size: cover;
-    opacity: 1;
-    border: 5px solid pink;
 
-}
+    
 
 .section2{
 display: flex;
 flex-direction: column;
 width: 60%;
-border: 5px solid black;
+
+
+}
+
+.section2 hr{
+width: 135%;
+border: 1px solid gray;
+right: 490px;
+top: 70px;
+position: relative;
+
+
 
 }
 
 .section3{
+
 display: flex;
 justify-content: center;
 font-family: 'Open Sans', sans-serif;
@@ -218,34 +319,57 @@ font-size: 20px;
 list-style-type: none;
 
 }
+
+.section3 a {
+text-transform: uppercase;
+font-size: 30px;
+color:black ;
+text-decoration-line: none;
+
+}
+
+.section3 li{
+padding: 10px;
+
+
+}
+
+.section3 li:hover{
+position: relative;
+background-color: #D74430;
+background-size: 100%;
+
+
+}
+
 .section3 h2 {
 
-    font-size: 40px;
+    font-size: 70px;
+    font-weight: 600; 
+    padding-bottom: 30px;
     text-transform: uppercase;
+
+}
+
+.section3 div{
+display: flex;
+height: 95vh;
+flex-direction: column;
+align-items: flex-end;
+text-align: end;
+justify-content: center;
+width: 100%;
+border: 1px solid forestgreen;
 
 }
 
 .section3 span{
 
     font-weight: bold;
+    font-weight: 900;
 
 }
 
-.section1 img{
-
-width: 115%;
-
-}
-
-.section1 figure {
-    position: relative;
-    border: 1px solid greenyellow;
-    top: 570px;
-    left: 245px;
-
-
-
-}
 
 
 
