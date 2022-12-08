@@ -537,16 +537,17 @@ font-family: 'Open Sans', sans-serif;
 .section5 button:hover{
   
         
-
+box-shadow:inset -4em 0 0  #D74430;
 
     
 }
 
+.section5  h2:hover{
+     
+    font-size: 60px;
+        
+    }
 
-.teste{
-    box-shadow:inset -4em 0 0  #D74430;
-
-}
 
 
 
