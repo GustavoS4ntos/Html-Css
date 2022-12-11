@@ -1,34 +1,1210 @@
-@media screen and (max-width:380px) {
 
-@import url('https://fonts.googleapis.com/css2?family=Allan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* SmartPhones 600px para baixo */
+@media only screen and (max-width:375px){
+        @import url('https://fonts.googleapis.com/css2?family=Allan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    
+        @font-face {
+            font-family: jedi ;
+            src: url('../fontes/Starjedi.ttf') ;
+        }
+        
+        *{
+        
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+        }
+        
+        
+        header{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 24vh;
+        background-image: url('../img/startopo2x.png');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        opacity: 1;
+        border: 1px solid red;
+        
+        }
 
-@font-face {
-    font-family: jedi ;
-    src: url('../fontes/Starjedi.ttf') ;
-}
+        .starWars{
+            position: relative;
+            top: 11vh;
+            display: inline;
+            align-items: center;
+            text-align: center;
+            width: 70%;
+           
+        }
 
-*{
+        .starWars h1{
+            position: relative;
+            right: 5vh;
+            color: white;
+            border: 1px solid red;
+            font-family: jedi ;
+            text-transform: uppercase;
+            
+        }
+            
+h1 span{
+    position: relative;
+    left: 19vh;
+    border: 1px solid pink;
+    color: black;
+    
+    }
 
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    header h3{
 
-}
-
-
-header{
+        color:black;
+        font-family: 'Open Sans', sans-serif;
+        font-weight:400;
+        padding-bottom: 20px;
+        border-bottom: 3px solid black;
+        
+        
+ }
+.legiao{
 display: flex;
-justify-content: center;
-width: 100%;
-height: 835px;
-background-image: url('../img/startopo2x.png');
-background-position: center;
-background-size: cover;
-opacity: 1;
-border: 1px solid red;
+flex-direction: column;
+position: absolute;
+font-size: 6px;
+text-transform: uppercase;
+top: 130px;
+right: 25px;
+            
+}
+.legiao span{
+          
+font-weight: bold;
+        
+}
+        
+        
+.legiao h4 span{
+        
+font-size: 15px;
+         
+ }
+        
+.logo1{
+    
+background-image: url('../img/logo3.png');
+width: 72%;
+height: 30vh;
+background-size: 100%;
+left: 9vw;
+position: absolute;
+background-repeat: no-repeat;
+border: 1px solid blue;
+
+}   
+
+
+/* header a cima*/
+/*Main Abaixo */
+
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+      
+  }
+
+  .section1{
+    width:100%;
+    height: 78vh;
+    background-image: url('../img/main.png');
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    border: 1px solid pink;
+
+}
+   
+  .card1{
+    position: relative;
+    width: 222px;
+    height: 328px;
+    background-image: url(../img/comeceajogarimg.png);
+    background-position: center;
+    background-size: cover;
+    color: white ;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid green;
+    top: 8vh;
+    left: 40vw;
+    
+    }
+
+    
+    .section1 button{
+        width: 70%;
+        height: 6vh;
+        position: relative;
+        bottom: 20px;
+        color: white;
+        border-color: white;
+        background-color: transparent;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: 10px;
+        top: 50px;
+        text-decoration-line: none;
+        transition:  2s;
+       
+    }
+    
+    
+    .section1 button:hover{
+    
+    box-shadow: inset 9em 0 0 black;;
+    font-size: 20px;
+    }
+
+    .section1 h2{
+        padding-top: 35px;
+        font-weight: 500;
+        font-size: 30px;
+        
+        }
+    
+    .section1 p{
+    font-size: 10px;
+    font-weight: 100;
+    text-align: start ;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+    }
+    
+    
+
+.card2{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-items: flex-end;
+    align-items: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    bottom: 24vh;
+    font-size: 10px;
+    
+    }
+    
+    
+    .card2 p{
+    font-weight: 450;
+    padding-top: 1vh;
+    text-align: end;
+    
+    }
+    
+    .card2 h2{
+    text-align: end;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 1vh;
+    
+    
+    }
+    
+    .card2 img {
+    
+        width: 59vw;
+        height: 22vh;
+        
+        }
+        
+    
+    .card2 figure{
+      
+        border: 1px solid red;
+       
+        
+        }
+    
+    .divSobreJogo{
+        
+        padding-left: 15vw;
+        border: 1px solid red;
+    
+    }
+
+    .divvazia{
+
+        margin-left: 62%;
+        width: 38%;
+        height: 3px;
+        background-color: black;
+        
+        }
+
+        .section2{
+            width: 100%;
+            height: 70vh;
+            border: 1px solid blue;
+        }
+    
+
+            
+            .section2 hr{
+            position: relative;
+            width: 80%;
+            border: 3px solid gray;
+            border-radius: 2px;
+            bottom: 22vh;
+            left: 10vw;
+            
+            
+            
+            }
+
+            /* Estrutura Do Jogo Imagens */
+
+            .section1 img{
+                position: relative;
+                width: 50%;
+                top:70vh;
+                border: 1px solid red;
+                
+            }
+            
+            
+            .section3 img{
+                position: relative;
+                width: 40%;
+                left: 40vw;
+                border: 1px solid red;
+                
+            }
+               /* Estrutura Do Jogo Imagens */ 
+
+               
+.section3{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    text-align: end;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid blue ;
+    
+    
+    
+    }
+    
+    .section3 ul{
+        font-size: 20px;
+        list-style-type: none;
+        
+        }
+    .section3 a {
+    text-transform: uppercase;
+    font-size: 10px;
+    color:black ;
+    text-decoration-line: none;
+    
+    }
+    
+    .section3 li{
+    padding: 1px;
+    
+    
+    }
+    
+    .section3 li:hover{
+    position: relative;
+    background-color: #D74430;
+    background-size: 100%;
+    
+    
+    }
+    
+    .section3 h2 {
+      
+        font-size: 20px;
+        font-weight: 600; 
+        padding-bottom: 5px;
+        text-transform: uppercase;
+    
+    }
+    
+    .section3 div{
+    position: relative;
+    display: block;
+    border: 1px solid forestgreen;
+    bottom: 10vh;
+    
+    }
+    
+    .section3 span{
+    
+        font-weight: bold;
+        font-weight: 900;
+    
+    }
+    
+
 
 }
 
+
+/* dispositivos um pouco maiores 600px para baixo */
+@media only screen and (min-width:600px){
+   
+
+}
+
+/* Médios 600px para baixo */
+@media only screen and (min-width:768px){
+    
+
+}
+
+/* Largos 600px para baixo */
+@media only screen and (min-width:992px){
+}
+
+/* SuperLargos 600px para baixo */
+@media only screen and (min-width:1270px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Allan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+    @font-face {
+        font-family: jedi ;
+        src: url('../fontes/Starjedi.ttf') ;
+    }
+    
+    *{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    
+    header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 705px;
+    background-image: url('../img/startopo2x.png');
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    
+    }
+    
+    
+    h1{
+     
+    color: white;
+    font-size: 100px;
+    font-family: jedi ;
+    position: relative;
+    text-transform: uppercase;
+    top: 340px;
+    padding-left: 80px;
+    
+    
+    }
+    
+    h1 span{
+    border: 5px solid pink;
+    padding-left: 500px;
+    color: black;
+    
+    }
+    
+    header h3{
+    
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+    
+    
+    }
+    header section{
+    display: flex;
+    flex-direction: column;
+    
+    position: absolute;
+    font-size: 20px;
+    text-transform: uppercase;
+    top: 550px;
+    right: 140px;
+        
+    }
+    
+    header section span{
+      
+    font-weight: bold;
+    
+    }
+    
+    
+    header section h4 span{
+    
+        font-size: 15px;
+     
+        }
+    
+    
+    
+    .logo1{
+        
+    background-image: url('../img/logo3.png');
+    
+    width: 70%;
+    height: 100vh;
+    background-size: 100%;
+    left: 125px;
+    top: 80px;
+    position: absolute;
+    background-repeat: no-repeat;
+   
+    
+    }
+    
+    
+    
+    /* header a cima*/
+    /*Main Abaixo */
+    
+    
+    main{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+        
+    }
+    
+    .card1{
+    width: 358px;
+    height: 514px;
+    background-image: url(../img/comeceajogarimg.png);
+    background-position: center;
+    background-size: cover;
+    color: white ;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid green;
+    position: relative;
+    bottom:30px ;
+    left: 30px;
+    }
+    
+    
+    
+    
+    .section1{
+        width:40%;
+        height: 155vh;
+        padding-left: 100px;
+        background-image: url('../img/main.png');
+        background-position: center;
+        background-size: cover;
+        opacity: 1;
+       
+    
+    }
+    
+    .section1 button{
+        width: 11vw;
+        height: 6vh;
+        position: relative;
+        bottom: 30px;
+        color: white;
+        border-color: white;
+        background-color: transparent;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: 15px;
+        top: 30px;
+        text-decoration-line: none;
+        transition:  2s;
+       
+    }
+    
+    
+    .section1 button:hover{
+    
+    box-shadow: inset 9em 0 0 black;;
+    font-size: 20px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .section1 img{
+        position: relative;
+        width: 170%;
+        left: 50px;
+        top: 70px;
+        
+        
+    }
+    
+    
+    .section3 img{
+        position: relative;
+        width: 90%;
+        top: 160px;
+     
+        
+    }
+        
+        
+    
+    .section1 h2{
+        padding-top: 50px;
+        font-weight: 500;
+        font-size: 50px;
+        
+        }
+    
+    .section1 p{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: start ;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    
+    
+    }
+    
+    
+    .card2{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: end;
+    font-size: 15px;
+    padding-right: 90px;
+    padding-left: 130px;
+    
+    }
+    
+    
+    .card2 p{
+    font-weight: 450;
+    padding-top: 20px;
+   
+    
+    }
+    
+    .card2 h2{
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    
+    
+    }
+    
+    .card2 img {
+    
+        width: 20rem;
+        
+        }
+        
+    
+    .card2 figure{
+        position:relative;
+        top: 4vh;
+      
+       
+        
+        }
+    
+    .divSobreJogo{
+        position: relative;
+        bottom: 5vh;
+        
+    
+    }
+        
+        
+    
+    .section2{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 155vh;
+    
+    }
+    
+    .section2 hr{
+    width: 138%;
+    border: 2px solid gray;
+    right: 375px;
+    top: 70px;
+    position: relative;
+    
+    
+    
+    }
+    
+    .section3{
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    height: 95vh;
+    
+    
+    }
+    
+    
+    .section3 a {
+    text-transform: uppercase;
+    font-size: 20px;
+    color:black ;
+    text-decoration-line: none;
+    
+    }
+    
+    .section3 li{
+    padding: 10px;
+    
+    
+    }
+    
+    .section3 li:hover{
+    position: relative;
+    background-color: #D74430;
+    background-size: 100%;
+    
+    
+    }
+    
+    .section3 h2 {
+    
+        font-size: 50px;
+        font-weight: 600; 
+        padding-bottom: 30px;
+        text-transform: uppercase;
+    
+    }
+    
+    .section3 div{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+    justify-content: center;
+    width: 100%;
+    
+    
+    }
+    
+    .section3 span{
+    
+        font-weight: bold;
+        font-weight: 900;
+    
+    }
+    
+    
+    .section4{
+    width: 100%;
+    display: block;
+    height: 230vh;
+    background-color: #2D2D2D;
+    
+    }
+    
+    .section4Efeito{
+    background-image: url(../img/section4/Security_stormtrooper_HUC2-FF-003301@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+    height: 227px;
+    color: white;   
+     font-family: 'Open Sans', sans-serif;
+    padding: 15px 0px 20px 20px;
+    transition: 1s;
+    }
+    
+    .mostrarTexto{
+    
+    display: none;
+    
+    }
+    
+    .section4Efeito:hover .mostrarTexto{
+        display: block;
+       
+    }
+    
+    
+    .section4Efeito:hover {
+        display: block;
+        background-color: #B73F33;
+        box-shadow: 0px 0px 1px 15px #B73F33;
+        position: relative;
+       
+    }
+    
+    
+    .mostrarTexto h2{
+        
+    font-size: 30px;
+    }
+    
+    .mostrarTexto P{
+    
+    font-weight: 100;
+    
+    }
+    
+    .mostrarButton {
+        position: relative;
+        width: 11vw;
+        height: 6vh;
+        font-size: 20px;
+        background: transparent;
+        color: white;
+        border: 2px solid white;
+        border-radius: 1px;
+        top: 2vh;
+        right: 15px;
+        transition: 1s;
+       
+    
+    }
+    
+    .mostrarButton:hover {
+    
+    position: relative;
+    font-size: 25px;
+    box-shadow: inset 14rem 0 0  black;
+    }
+    
+    
+    
+    
+    
+    
+    .section4Efeito img{
+    width: 200px;
+   
+    
+    }
+    
+    .section4Efeito figure{
+        width: 200%;
+       
+        
+        }
+    
+    .atributos{
+        margin-top: 170px;
+        margin-left: 250px;
+        margin-bottom: 70px;
+        font-size: 50px;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    
+    }
+    
+    .section4Principal{
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+    }
+    
+    .section4Figure1{
+        width: 50%;
+       
+        padding-left: 10vh;
+    
+    
+    }
+    
+    .section4Figure1 figure{
+        width: 100%;
+        height: 430px;
+        display: flex;
+        justify-content: end;
+       
+    }
+    
+    
+    .section4Figure1 img{
+    
+        width: 100%;
+        height: 430px;
+        }
+    
+    .section4Figures figure{
+    
+    width: 50%;
+    
+    
+    }
+    
+    
+    
+    .section4Figures{
+    width: 50%;
+    padding-right: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+    
+    
+    
+    }
+
+    #fig{
+
+        width: 100%;
+        height:234px;
+        
+    }
+    
+    .section4Figures img{
+    
+        width:100%;
+        height: 25vh;
+        padding-bottom: 5px;
+        
+    }
+    
+    
+    .section4Hie{
+    padding-top: 60px;
+    display: flex;
+    width: 100%;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    justify-content: center;
+    
+    
+    }
+
+    .section4Hie img{
+
+        width: 100%;
+
+    }
+    
+    
+    .section4 h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 30px;
+    padding-right: 90px;
+    text-align: end;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+    }
+
+    .comoJogar{
+    padding-top: 20vh;
+    padding-left: 45vw;
+    font-size: 30px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+    .section5{
+    width: 100%;
+    height: 62vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+    }
+
+    .stortm{
+        width: 0;
+        height: 0;
+
+    }
+    .section5 figure{
+    position: relative;
+    bottom: 35vh;
+    
+    
+    
+    }
+    
+    .section5 img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .section5Principal{
+    position: relative;
+    width: 100%;
+    height: 43vh;
+    display:flex;
+    flex-direction: row;
+    padding-left: 40vw;
+ 
+    border: 5px solid orchid;
+    
+    }
+    
+    .section5 H2{
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    padding-top: 40px;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    transition: 1s;
+ 
+    }
+    
+    .section5 button{
+    position: relative;
+    color: white;
+    font-weight: 100;
+    width: 230px;
+    height: 65px;
+    bottom: 9vh;
+    font-size: 25px;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    transition: 1s;
+    
+    }
+    
+    .section5Principal div{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        right: 5vw;
+   
+        }
+    
+    .section5Principal div:hover button{
+      
+    box-shadow:inset -5em 0 0  #D74430;
+    
+        
+    }
+    
+    
+    
+    .section5Principal div:hover h2{
+        font-weight: 900;
+       font-size: 50px;
+        
+            
+        }
+    
+        .section5Principal div:hover hr{
+         
+            border: 3px solid #D74430;
+    
+        }
+    
+    
+    .section5Principal p{
+    position: relative;
+    font-size: 23px;
+    font-weight: 100;
+    right: 5vw;
+    bottom: 13vh;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans', sans-serif;
+    
+    }
+    
+    .section5Principal section{
+     text-align: center;
+    width: 33%;
+    
+    
+    }
+    
+    .section5Principal  hr{
+    
+    position: relative;
+    top: 3vw;
+    width: 30%;
+    border: 3px solid black;
+    border-radius: 10px;
+    transition: 2s;
+    
+    }
+    
+    /* footer a baixo */
+    
+    
+    footer {
+    width: 100%;
+    display: flex;
+    
+    }
+    
+    .section6{
+        width: 60%;
+        height: 115vh;
+        padding: 100px;
+        background-color: #FF5A56;
+    
+    }
+    
+    .section6Aplicativo {
+    padding-top: 12vh;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+    .section6Aplicativo h2{
+    
+    font-weight: 800;
+    font-size: 50px;
+    
+    }
+    
+    .section6Aplicativo p{
+    font-weight: 100;
+    padding-top: 5vh;
+    font-size: 20px;
+    }
+    
+    .section6Card{
+    
+    display: flex;
+    flex-direction: row;
+    
+    }
+    
+    .section6 figure{
+    
+    padding: 30px 17px 50px 0px;
+    
+    
+    }
+    
+    .section6Card img{
+    
+    width: 100%;
+    height: 8vh;
+    
+    }
+    
+    
+    .section6 hr{
+    width: 56%;
+    border: 3px solid #D74430;
+    border-radius: 5px;
+    
+    }
+    
+    .section6Logo h2{
+    position: relative;
+    top: 1vh;
+    left: 25px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 10vh;
+    font-size: 85px;
+    font-family: jedi ;
+    
+    }
+    .section6Logo span{
+    
+    position: relative;
+    bottom: 7vh;
+    right: 10px;
+    }
+    
+    .section6Logo p{
+    position: relative;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    bottom: 5vh;
+    
+    }
+    
+    .section7{
+    width: 40%;
+    height: 115vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+    }
+    
+    .section7 p{
+    position: relative;
+    top: 90vh;
+    left: 3vh;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    
+    }
+    
+    .darth{
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        justify-content: end;
+        bottom: 20vh;
+        right: 4vw;
+        }
+    
+    
+    
+    
 
 
 }

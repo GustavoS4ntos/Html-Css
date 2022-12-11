@@ -59,7 +59,7 @@ border-bottom: 3px solid black;
 
 
 }
-header section{
+.legiao{
 display: flex;
 flex-direction: column;
 
@@ -70,15 +70,14 @@ top: 650px;
 right: 250px;
     
 }
-
-header section span{
+.legiao span{
   
 font-weight: bold;
 
 }
 
 
-header section h4 span{
+.legiao h4 span{
 
     font-size: 15px;
  
@@ -107,6 +106,7 @@ border: 1px solid blue;
 
 
 main{
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
