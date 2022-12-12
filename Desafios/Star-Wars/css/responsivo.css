@@ -276,8 +276,9 @@ main{
 
             .section1 img{
                 position: relative;
-                width: 50%;
-                top:70vh;
+                width: 56%;
+                height: auto;
+                top: 62vh;
                 border: 1px solid red;
                 
             }
@@ -285,8 +286,9 @@ main{
             
             .section3 img{
                 position: relative;
-                width: 40%;
-                left: 40vw;
+                width: 30%;
+                height: auto;
+                bottom: 42vh;
                 border: 1px solid red;
                 
             }
@@ -309,21 +311,21 @@ main{
     }
     
     .section3 ul{
-        font-size: 20px;
+        font-size: 12px;
         list-style-type: none;
         
         }
     .section3 a {
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 8px;
+    font-weight: bold;
     color:black ;
     text-decoration-line: none;
-    
+
     }
     
     .section3 li{
-    padding: 1px;
-    
+
     
     }
     
@@ -331,24 +333,25 @@ main{
     position: relative;
     background-color: #D74430;
     background-size: 100%;
-    
+  
     
     }
     
     .section3 h2 {
       
         font-size: 20px;
-        font-weight: 600; 
-        padding-bottom: 5px;
+        font-weight: 100; 
+        padding-bottom: 1px;
         text-transform: uppercase;
     
     }
     
     .section3 div{
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
     border: 1px solid forestgreen;
-    bottom: 10vh;
+    bottom: 18vh;
     
     }
     
