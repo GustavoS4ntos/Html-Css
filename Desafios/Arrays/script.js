@@ -90,7 +90,7 @@ amigos : ["Deus","Deus","Deus","Deus"]
             },{
 
 
-                nome: "Gustavo",
+                nome: "Jhon",
                 idade: "24",
                 telefone:"17996790180",
                 amigos : ["Deus","Deus","Deus","Deus"]
