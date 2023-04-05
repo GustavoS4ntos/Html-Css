@@ -11,7 +11,14 @@ import styled from 'styled-components'
 
 
 const Container = styled.div`
-background-color:red;
+background-color:#F66000;
+color:white;
+
+`
+
+const Titulo = styled.h1 `
+font-size:50px;
+padding:5vw;
 `
 
 function App() {
@@ -22,7 +29,7 @@ const [frutas , setFrutas] = useState ([
 
   return (
     <Container >
-      <h1>Hortifruti vnw</h1>
+      <Titulo>Hortifruti vnw</Titulo>
     {frutas.map((itens)=>(
       <img src={itens.img} alt={itens.nome}/>
     ))}
