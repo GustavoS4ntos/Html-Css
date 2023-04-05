@@ -3,6 +3,9 @@ import './App.css';
 import SayMyName from './components/SayMyName';
 import Pessoas from './components/Pessoas';
 import PropsTest from './components/PropsTest';
+import List from './components/List';
+import Eventos from './components/Eventos';
+import Form  from './components/Form';
 
 function App() {
 
@@ -27,11 +30,14 @@ const name="Gustavo"
      ano = "1999"
      marca= "Gol"
 
-     foto="https://1.bp.blogspot.com/-puAgvTPdhJY/W1kruXnZt_I/AAAAAAACs28/tzH3L_J-WykT4MmPBwZqZsDrA28VFLZDQCLcBGAs/s1600/VW-Gol-2019-automatico%2B%252814%2529.jpg"
-     
-     
-     />
+     foto="https://1.bp.blogspot.com/-puAgvTPdhJY/W1kruXnZt_I/AAAAAAACs28/tzH3L_J-WykT4MmPBwZqZsDrA28VFLZDQCLcBGAs/s1600/VW-Gol-2019-automatico%2B%252814%2529.jpg"/>
 
+     <List />
+
+     <Eventos numero="1"/>
+     <Eventos numero="2"/>
+
+     <Form    />
 
     </div>
 
