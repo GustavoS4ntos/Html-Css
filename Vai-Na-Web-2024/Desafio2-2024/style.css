@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+   width: 100%;
+    height: 14vh;
+    background-color:#ff69b4;
+  
+    display: flex;
+    border: 1px solid rgb(34, 221, 50);
+   
+}
+
+header nav{
+width: 100%;
+display: flex;
+border: 1px solid rgb(66, 21, 189);
+
+}
+
+header nav img {
+
+width: 100px;
+height: 100px;
+
+}
+
+.menu1 {
+    display: flex;
+    width: 40%;
+    border: 1px solid rgb(20, 158, 38);
+    padding-top: 20px;
+    padding-left: 100px;
+
+
+}
+
+.menu2 {
+
+    
+    width: 60%;
+    border: 1px solid red;
+    text-align: left;
+    padding: 40px;
+
+}
+
+header nav a {
+
+
+    font-family: "Noto Sans", sans-serif;
+    font-size: 28px;
+    color: #E4EEF1;
+    text-decoration: none;
+    margin: 20px;
+    border: 1px solid red;
+
+
+}
+
+.menulateral {
+
+
+}
+
+.section1 {
+
+    display: flex;
+    height: 40vh;
+    border: 1px solid red;
+    background-color:#ffd9ec;
+
+
+}
+
+.section1 p{
+
+    font-family: "Noto Sans", sans-serif;
+    font-size: 25px;
+    width: 60%;
+    padding-top: 50px;
+    padding-left: 100px;
+   
+    
+}
+
+
+
+.section1 figure{
+
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid red;
+    
+}
+
+.section1 img{
+
+display: flex;
+align-items: center;
+width: 360px;
+height: 360px;
+
+
+}
+
+.section2{
+    display: flex;
+    border: 1px solid red;
+    background-color:#ff69b4;
+    
+
+}
+
+.section2 p{
+color: white;
+    font-family: "Noto Sans", sans-serif;
+    text-align: left;
+    padding-top: 40px;
+    width: 70%;
+    font-size: 25px;
+    border: 1px solid red;
+
+}
+
+.section2 figure{
+
+    width: 30%;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section2 img{
+
+    display: flex;
+    align-items: center;
+    width: 421px;
+    height: 234px;
+    
+    
+    }
+
+.section3{
+    display: flex;
+   
+    justify-content: center;
+    border: 1px solid red;
+    background-color:#ffd9ec;
+}
+
+.section3 figure{
+
+padding: 90px;
+border: 1px solid red;
+
+}
+
+
+
+figure img{
+    height: 30vh;
+}
+
+footer{
+   
+    background-color:#ff69b4;
+    color: white;
+    display: flex;
+    border: 1px solid red;
+   
+}
+/*----------- responsivo--------------------- */
+@media(min-width:200px) and (max-width:420px){
+   header{
+    background-color: #0d0735;
+   }
+   nav{
+    width: 90vw;
+   }
+   main{
+    height: 100vh;
+    flex-wrap: wrap;
+   }
+   .banner{
+    background-size: cover;
+   }
+}
