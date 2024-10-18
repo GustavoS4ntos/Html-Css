@@ -63,6 +63,7 @@ header nav a {
 }
 
 
+
 .section1 {
 
     display: flex;
@@ -79,7 +80,7 @@ header nav a {
     font-size: 25px;
     width: 60%;
     padding-top: 50px;
-  
+    padding-left: 100px;
    
     
 }
@@ -120,7 +121,7 @@ color: white;
     font-family: "Noto Sans", sans-serif;
     text-align: left;
     padding-top: 40px;
-  
+    padding-left: 40px;
     width: 70%;
     font-size: 25px;
 
