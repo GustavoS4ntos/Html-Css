@@ -10,14 +10,14 @@ header{
     background-color:#ff69b4;
   
     display: flex;
-    border: 1px solid rgb(34, 221, 50);
+
    
 }
 
 header nav{
 width: 100%;
 display: flex;
-border: 1px solid rgb(66, 21, 189);
+
 
 }
 
@@ -32,7 +32,7 @@ height: 100px;
 .menu1 {
     display: flex;
     width: 40%;
-    border: 1px solid rgb(20, 158, 38);
+
     padding-top: 20px;
     padding-left: 100px;
 
@@ -43,7 +43,7 @@ height: 100px;
 
     
     width: 60%;
-    border: 1px solid red;
+
     text-align: left;
     padding: 40px;
 
@@ -57,7 +57,7 @@ header nav a {
     color: #E4EEF1;
     text-decoration: none;
     margin: 20px;
-    border: 1px solid red;
+
 
 
 }
@@ -71,7 +71,7 @@ header nav a {
 
     display: flex;
     height: 40vh;
-    border: 1px solid red;
+
     background-color:#ffd9ec;
 
 
@@ -96,7 +96,7 @@ header nav a {
     display: flex;
     justify-content: center;
     padding: 5px;
-    border: 1px solid red;
+
     
 }
 
@@ -113,7 +113,7 @@ margin-right: 100px;
 
 .section2{
     display: flex;
-    border: 1px solid red;
+
     background-color:#ff69b4;
     
 
@@ -127,7 +127,7 @@ color: white;
     padding-left: 40px;
     width: 70%;
     font-size: 25px;
-    border: 1px solid red;
+
 
 }
 
@@ -155,14 +155,13 @@ color: white;
     display: flex;
    
     justify-content: center;
-    border: 1px solid red;
     background-color:#ffd9ec;
 }
 
 .section3 figure{
 
 padding: 90px;
-border: 1px solid red;
+
 
 }
 
@@ -179,7 +178,7 @@ footer{
     color: white;
     display: flex;
     justify-content: center;
-    border: 1px solid red;
+
    
 }
 .social{
@@ -189,7 +188,7 @@ justify-content: center;
 align-items: center;
 padding-right: 300px;
 width: 33.3%;
-border: 1px solid red;
+
 
 }
 
@@ -214,7 +213,7 @@ height: 50px;
     justify-content: center;
     width: 33.3%;
     align-items: center;
-    border: 1px solid red;
+   
 
 
 }
@@ -232,7 +231,6 @@ height: 50px;
     align-items: center;
     padding-left: 350px;
     width: 33.3%;
-    border: 1px solid red;
 
 
 }
