@@ -368,11 +368,164 @@ flex-direction: column;
 
     width: 100%;
     height: 100%;
-    padding: 0;
+    
 
 
 }
 
-  
+.section2{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+ 
+    width: 100vw;
+    height: 72vh;
+    border: 10px solid rgb(41, 161, 25);
+    background-color:#ff69b4;
+    
+
+}
+
+.section2 div{
+    display: flex;
+flex-direction: column;
+border: 10px solid red;
+}
+
+.teste{
+
+
+
+border: 5px solid rgb(58, 14, 214);
+}
+
+.section2 p{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    width: 100vw;
+    height: 30vh;
+    padding: 0;
+    padding-top: 30px;
+    text-align: start;
+    font-size: 18px;
+    border: 8px solid rgb(43, 15, 170);
+
+}
+
+.section2 figure{
+    
+    border: 10px solid red;
+     width: 100vw;
+     height: 100vh;
+    
+}
+
+.section2 img{
+    border: 10px solid red;
+
+    width: 100%;
+    height: 100%;
+   
+    
+    
+    }
+
+
+    .section3{
+        display: flex;
+       flex-wrap: wrap;
+        justify-content: center;
+        border: 1px solid red;
+        background-color:#ffd9ec;
+    }
+    
+    .section3 figure{
+    
+
+    border: 1px solid red;
+    
+    }
+    
+    .section3 figure{
+
+        padding: 40px;
+        border: 1px solid red;
+        
+        }
+
+        footer{
+            width: 100vw;
+            height: 60vh;
+            background-color:#ff69b4;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+           
+           text-align:center;
+            border: 5px solid rgb(43, 241, 69);
+           
+        }
+        .social{
+        
+        display: flex;
+        border: 6px solid red;
+        padding: 0px;
+        padding-bottom: 20px;
+        
+        }
+        
+        .social figure{
+        
+        margin: 15px;
+        
+        }
+        .social img{
+        
+        
+        width: 80px;
+        height: 80px;
+        
+        
+        
+        }
+        
+        .sobre{
+            display: flex ;
+           
+            align-items: center;
+            border: 5px solid rgb(22, 168, 253);
+        
+        
+        }
+
+        
+        
+        .sobre p {
+        width: 100vw;
+            font-size: 20px;
+            font-family: "Noto Sans", sans-serif;
+            
+        }
+        
+        .icon{
+           
+
+          
+         display: flex;
+    
+            border: 1px solid red;
+            padding: 0px;
+            padding-top: 20px;
+        
+        
+        }
+        
+        .icon img {
+        width: 105px;
+        height: 109px;
+        
+        }
      
 }
