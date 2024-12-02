@@ -1,0 +1,63 @@
+.priInicio {
+height: 70vh;
+background-image: url(../../assets/bnIncio.png);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+padding-left: 6%;
+
+h2{
+
+color: white ;
+font-size: 30px;
+width: 20%;
+
+}
+}
+
+.segInicio{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+height: 75vh;
+
+h2{
+    padding-left: 10%;
+    color: #005695;
+    width: 50%;
+    font-size: 30px;
+}
+
+}
+
+.iconMain{
+display: flex;
+flex-direction: row;
+
+justify-content:space-evenly;
+width: 100%;
+height: 50vh;
+
+
+
+
+
+section{
+    background-color: #0157944D;
+    border-radius: 20px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    p{
+font-size: 30px;
+
+    }
+}
+
+
+
+}
